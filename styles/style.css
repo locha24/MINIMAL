@@ -1,0 +1,605 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  /* background-color: lightgray; */
+}
+
+footer {
+  background-image: url(../images/footer.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 517px;
+  background-size: cover;
+}
+
+.list {
+  list-style: none;
+}
+
+.is-hiden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.container {
+  width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header-link {
+  padding-left: 40px;
+}
+
+header {
+  background-color: #ffffff;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.73;
+  text-transform: uppercase;
+
+  color: #333333;
+  padding-top: 31px;
+  padding-bottom: 37px;
+  width: 72px;
+  height: 38px;
+  margin-right: 460px;
+}
+
+.header-list {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.67;
+  text-transform: uppercase;
+
+  color: #404040;
+  padding-top: 41px;
+  padding-bottom: 45px;
+  height: 20px;
+  display: flex;
+  gap: 34px;
+}
+
+.hero {
+  height: 391px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/head.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.hero-title {
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 1.25;
+
+  /* identical to box height, or 125% */
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  padding-top: 105px;
+  margin-bottom: 55px;
+  width: 672px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-aftertitle {
+  font-family: "Vollkorn";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.33;
+
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.81);
+  padding-bottom: 101px;
+  width: 225px;
+  height: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.company-text {
+  font-family: "Vollkorn";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.39;
+
+  /* or 139% */
+  text-align: center;
+
+  color: #47474f;
+  padding-top: 60px;
+  margin-bottom: 39px;
+}
+
+.company-button {
+  font-family: "Vollkorn";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+
+  text-align: center;
+  align-items: center;
+
+  color: #47474f;
+  padding-left: 34px;
+  padding-right: 34px;
+  padding-top: 13px;
+  padding-bottom: 20px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.company {
+  background: #fefec9;
+  border-radius: 0px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.company-button {
+  font-family: "Vollkorn";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  align-items: center;
+  color: #47474f;
+  padding-left: 34px;
+  padding-right: 34px;
+  padding-top: 13px;
+  padding-bottom: 20px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fefec9;
+  border-color: #47474f;
+}
+
+.brands {
+  padding-top: 79px;
+  padding-bottom: 74px;
+}
+
+.brands-background {
+  width: 300px;
+  height: 219px;
+  margin-bottom: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#F5F5F5;
+}
+
+.brands-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 1.57;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #333333;
+  width: 394px;
+  height: 36px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 73px;
+}
+
+.brands-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.brands-aftertitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+
+  /* identical to box height, or 125% */
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #333333;
+  height: 20px;
+  margin-bottom: 20px;
+}
+
+.brands-text {
+  font-family: "Vollkorn";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1, 47;
+
+  /* or 147% */
+  text-align: center;
+
+  color: #333333;
+}
+
+.projects {
+  padding-top: 79px;
+  padding-bottom: 89px;
+  background-color: #F5F5F5;
+}
+
+.projects-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 1.57;
+
+  /* identical to box height, or 157% */
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #333333;
+  width: 230px;
+  height: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 73px;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.projects-name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+
+  /* identical to box height, or 125% */
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #333333;
+  padding-top: 19px;
+  padding-bottom: 4px;
+  background: #ffffff;
+  border-radius: 0px;
+}
+
+.projects-text {
+  font-family: "Vollkorn";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.43;
+
+  /* identical to box height, or 143% */
+  text-align: center;
+
+  color: #333333;
+  background: #ffffff;
+  border-radius: 0px;
+}
+
+.team {
+  padding-top: 79px;
+  padding-bottom: 69px;
+}
+.team-list {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 1.57;
+
+  /* identical to box height, or 157% */
+  text-align: center;
+  text-transform: uppercase;
+  width: 129px;
+  height: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 73px;
+}
+.team-img {
+  padding-bottom: 20px;
+}
+.team-box {
+  text-align: center;
+}
+.team-name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+
+  /* identical to box height, or 125% */
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.team-text {
+  font-family: "Vollkorn";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.43;
+
+  /* identical to box height, or 143% */
+  text-align: center;
+
+  color: #333333;
+  margin-bottom: 31px;
+}
+.team-soc {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.team-soc-item {
+  height: 44px;
+  width: 44px;        
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team-svg {
+  height: 17px;
+  width: 20px;
+}
+.team-soc-icon {
+  fill: currentColor;
+}
+
+footer {
+  padding-top: 79px;
+  padding-bottom: 75px;
+}
+
+.adress-block {
+  display:flex;
+}
+
+.footer-box {
+  background-image: url(footer.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer-heading {
+  font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 400;
+ 
+ /* identical to box height, or 157% */
+
+
+ text-transform: uppercase;
+ color: #333333;
+
+ 
+
+  padding-top: 70px;
+  padding-bottom: 28px;
+  font-size: 23px;
+  
+  line-height: 36px;
+  text-align: center;
+}
+
+.footer-block-content {
+  margin-right: 110px;
+}
+.footer-block-heading {
+  font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 20px;
+ /* identical to box height, or 125% */
+
+ text-align: center;
+ 
+
+ color: #333333;
+
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 20px;
+  padding-top: 26px;
+  padding-bottom: 20px;
+  padding-right: 8px;
+}
+.footer-block-text {
+  font-family: 'Vollkorn';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  /* identical to box height, or 129% */
+  text-decoration: none;
+  color: #212121;
+}
+.footer-block-text-two {
+  font-family: 'Vollkorn';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  /* identical to box height, or 129% */
+  text-decoration: none;
+  color: #212121;
+}
+
+.footer-block{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  margin-top: 42px;
+  margin-left: 80px;
+  padding-bottom: 69px;
+}
+
+.footer-block-test {
+  margin-top: -25px;
+}
+.footer-block-content {
+  margin-right: 110px;
+}
+.footer-text{
+  margin-bottom: -10px;
+  text-decoration: none;
+}
+.footer-block-messanger{
+  margin-left: -113px;
+  margin-bottom: -23px;
+}
+
+.footer-block-link{
+  text-decoration: none;
+}
+.email{
+  text-decoration: none;
+}
+
+.place{
+  text-decoration: none;
+}
+.form {
+    padding-right: 100%;
+    padding-bottom: 21.95px;
+    padding-top: 20px;
+    margin-left: -9.5%;
+}
+.footer-bottom {
+  height: auto;
+  background-color: #000;
+}
+.footer-box-container {
+  margin-left: 480px;
+}
+.footer-box-container {
+  padding-top: 70px;
+}
+input {
+  width: 600px;
+  height: 60px;
+  border: 0;
+  background-color: rgba(255, 255, 255, 0.18);
+  font-weight: 400;
+  padding: 1px 0 18px 30px;
+  font-size: 17px;
+  color: #fff;
+  font-family: 'Vollkorn';
+  line-height: 22px;
+}
+.text {
+  font-family: 'Vollkorn';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  /* identical to box height, or 129% */
+  
+  color: #FFFFFF;
+}
+.text-two {
+  font-family: 'Vollkorn';
+  font-weight: 400;
+  font-style: italic;
+  width: 600px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 17px;
+  border: 0;
+  color: #fff;
+}
+.text-three{
+  font-family: 'Vollkorn';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  /* identical to box height, or 129% */
+  height: 110px;
+  color: #FFFFFF;
+}
+.button {
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.25;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15.05px;
+    padding-bottom: 15px;
+    margin-top: 44px;
+    margin-left: 197px;
+    white-space: nowrap;
+    border-color: #7EC4BD;
+    background-color: black;
+    color: #8BCAC3;
+    cursor: pointer;
+}
