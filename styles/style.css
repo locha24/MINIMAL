@@ -68,6 +68,11 @@ header {
   align-items: center;
 }
 
+.header-item:hover {
+  cursor: pointer;
+  color:#e1e105;
+}
+
 .header-logo {
   font-family: "Oswald";
   font-weight: 400;
