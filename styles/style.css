@@ -211,6 +211,16 @@ header {
   border-color: #47474f;
 }
 
+.company-button:hover{
+  cursor:pointer;
+  color:#fefec9;
+  background-color:#47474f ;
+}
+
+.company-link:hover {
+  cursor:default;
+}
+
 .brands {
   padding-top: 79px;
   padding-bottom: 74px;
