@@ -8,6 +8,76 @@ h6 {
   margin: 0;
 }
 
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+} 
+
+@media screen and (min-width:320px) and (max-width:926px) {
+  footer {
+    background-image: url(../images/footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 320px;
+    background-size: cover;
+  }
+
+  .header-logo {
+    font-family: "Oswald";
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.73;
+    text-transform: uppercase;
+  
+    color: #333333;
+    padding-top: 31px;
+    padding-bottom: 37px;
+    width: 72px;
+    height: 38px;
+    margin-right: 460px;
+    padding-left: 113px;
+  }
+
+  .social-svg{
+    position:absolute;
+    padding-left: 70px;
+    top: 30px;
+  }
+
+  .header-item{
+    display: none;
+  }
+
+  .hero {
+    height: 391px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/head.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+  }
+
+  .hero-title {
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 1.25;
+  
+    /* identical to box height, or 125% */
+    text-transform: uppercase;
+  
+    color: #ffffff;
+    padding-top: 105px;
+    margin-bottom: 55px;
+    width: 672px;
+    text-align: left;
+  }
+} 
+
 ul {
   margin: 0;
   padding-left: 0;
